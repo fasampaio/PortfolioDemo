@@ -1,0 +1,23 @@
+.descricao {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid var(--verde-oliva);
+}
+
+.descricao__texto {
+    color: white;
+    text-align: justify;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .descricao__texto {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,7 @@
+.social {
+    background-color: var(--verde-oliva);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}

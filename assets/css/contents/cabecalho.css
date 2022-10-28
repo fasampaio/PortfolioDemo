@@ -1,0 +1,36 @@
+.cabecalho {
+    background-color: var(--verde-oliva);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+}
+
+.cabecalho__titulo {
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+}
+
+.cabecalho__menu {
+    margin-top: 1rem;
+}
+
+.cabecalho__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabecalho__lista a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho__lista-texto {
+    display: none;
+}
+
+

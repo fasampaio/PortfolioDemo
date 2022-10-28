@@ -1,0 +1,16 @@
+.foto {
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+}
+
+.foto__foto {
+    width: 50vw;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+    .foto__foto {
+        width: 25%;
+    }
+}

@@ -1,0 +1,86 @@
+.infos {
+    display: grid;
+    grid-template-areas: 
+        "nome nome"
+        "foto texto";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto;
+    background-image: url(../../img/blacksquarebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.infos__titulo {
+    grid-area: nome;
+    padding-bottom: 1rem;
+}
+
+.infos__foto {
+    grid-area: foto;
+    display: flex;
+    justify-content: center;
+}
+
+.infos__sobre {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infos__titulo-nome {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.infos__foto-perfil {
+    width: 75%;
+    border-radius: 100%;
+}
+
+.infos__sobre-texto {
+    font-family: var(--fonte-secundaria);
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+}
+
+.infos__sobre-email {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .infos {
+        grid-template-areas: 
+        "foto nome"
+        "foto texto";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto;
+    }
+
+    .infos__titulo {
+        align-self: center;
+        padding: 0;
+    }
+
+    .infos__titulo-nome {
+        font-size: 2rem;
+    }
+
+    .infos__sobre-texto {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .infos__foto-perfil {
+        width: 50%;
+    }
+}
