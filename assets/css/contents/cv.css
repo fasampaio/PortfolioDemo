@@ -19,6 +19,8 @@
     margin-bottom: 1rem;
     background-image: url(../../img/paperbackground.jpg);
     background-repeat: repeat;
+    box-shadow: 1px 1px 5px var(--verde-oliva), -1px -1px 5px var(--verde-oliva);
+    transition: .2s;
 }
 
 .cv__texto {
@@ -30,6 +32,10 @@
 
 .cv__texto-link a {
     text-decoration: none;
+}
+
+.cv__item:hover {
+    box-shadow: 3px 3px 3px var(--verde-oliva), -3px -3px 3px var(--verde-oliva);
 }
 
 @media screen and (min-width: 768px) {
@@ -44,5 +50,17 @@
     
     .cv__texto {
         font-size: 1.1rem;
+    }
+
+    .cv__item {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cv {
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 }
