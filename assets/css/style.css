@@ -3,6 +3,7 @@
 @import url(./contents/social.css);
 @import url(./contents/descricao.css);
 @import url(./contents/cv.css);
+@import url(./contents/projetos.css);
 @import url(./contents/foto.css);
 @import url(./contents/rodape.css);
 
@@ -11,7 +12,7 @@
     --fonte-secundaria: 'Josefin Slab', serif;
 
     --verde-oliva: rgb(0, 180, 180);
-    --degrade-pretocinza: linear-gradient(to bottom, black, rgb(100, 100, 100), black);
+    --degrade-pretocinza: linear-gradient(to bottom, black, rgb(50, 50, 50), black);
 }
 
 html {
